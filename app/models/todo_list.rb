@@ -1,3 +1,3 @@
-class TodoList < ApplicationRecord
-  has_many :todo_items
+class TodoList < ActiveRecord::Base
+	has_many :todo_items
 end
